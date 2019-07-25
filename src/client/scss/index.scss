@@ -1,0 +1,125 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+ //background-color: #FFCC00;
+  //padding: 20px;
+  margin: 0;
+}
+h1, h2, p, ul, li {
+  font-family: sans-serif;
+}
+.btn:focus {
+  outline: none !important;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #111;
+  color:white;
+  height:50px;
+}
+.main-content{
+  min-height: 100%;
+  margin-bottom: 50px;
+}
+
+.container .footer-text {
+  margin: 15px 0;
+}
+
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+nav, ul.header {
+  background-color: #111;
+  padding: 0;
+  margin-bottom: 0;
+}
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+.content {
+  //background-color: #FFF;
+  padding: 20px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+.active {
+  background-color: #0099FF;
+}
+
+.modal-container {
+  position: relative;
+}
+.modal-container .modal, .modal-container .modal-backdrop {
+  position: absolute;
+}
+.quesTimer{
+  width:25%;
+}
+.quesOptions{
+  display: inline;
+}
+.isAnswer{
+  margin-left: 15px;
+}
+.fa{
+  font-size: 20px;
+  margin-left: 10px;
+}
+.delete-icon{
+    color: red;
+    margin-left: 10px;
+}
+.btn-add-options{
+  margin-bottom: 1rem;
+}
+.login, .register-client{
+  width: 500px;
+}
+
+.mBottom{
+  margin-bottom: 1rem;
+}
+.invalid-feedback{
+  display: block;
+}
+.align-center{
+  display: block;
+  margin: 0 auto;
+}
+.btns-groupe{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btns-groupe{
+  .btn{
+    margin: 1rem;
+  }
+}
+.loggedin-user{
+    float: right;
+    margin-right: 10px;
+    position:  absolute;
+    top: 20px;
+    right: 0;
+    font-weight: bold;
+}
